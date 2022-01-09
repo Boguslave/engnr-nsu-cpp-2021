@@ -1,5 +1,7 @@
 add_executable(calculator
         main.cpp
+        commands.h
+        commands.cpp
         )
 
 add_library(src STATIC
