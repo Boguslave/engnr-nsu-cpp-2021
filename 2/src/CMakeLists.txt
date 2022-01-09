@@ -2,8 +2,8 @@ add_executable(calculator
         main.cpp
         )
 
-add_library(commands STATIC
-        StackCalc.h
-        StackCalc.cpp
+add_library(src STATIC
+        commands.h
+        commands.cpp
         main.cpp
         )
